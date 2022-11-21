@@ -59,7 +59,7 @@
         } else {
             $pesquisa = $banco->real_escape_string($_GET['busca']);
             $sql = "SELECT * 
-                FROM reserva x'
+                FROM reserva
                 WHERE idReserva LIKE '%$pesquisa%' 
                 OR dataReserva LIKE '%$pesquisa%'
                 OR horario LIKE '%$pesquisa%'
