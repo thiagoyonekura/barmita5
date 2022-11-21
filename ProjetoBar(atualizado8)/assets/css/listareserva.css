@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, black, red);
+    text-align: center;
+    color: white;
+}
+.busca{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+.inputbusca{
+    width: 20%;
+}
+
+.tabela{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 70%;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    color: white;
+    border: 1px solid white;
+    width: 600px;
+}
+
+th, td{
+    border: 1px solid white;
+    padding: 5px 2px;
+}
+
+tr:hover{
+    background-color: #990100;
+}

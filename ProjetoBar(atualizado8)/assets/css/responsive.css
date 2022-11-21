@@ -1,0 +1,41 @@
+
+
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .corpo{
+        width: 970px;
+        
+    }
+}
+
+@media only-screen and (min-width:768px) and (max-width:991px){
+    .corpo{
+        width: 750px;
+        
+    }
+    .singlemenu{
+        flex-direction: column;
+    }
+
+    .singlemenu img{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:767px){
+        .corpo{
+            width: 320px;
+        }
+        .colunas-menu{
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        .singlemenu{
+            flex-direction: column;
+        }
+        .singlemenu img{
+            margin-bottom: 25px;
+        }
+        
+        
+    }

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    height: 1200px;
+    color: #222;
+}
+
+.corpo{
+    width: 1170px;
+    margin: 100px auto;
+}
+
+.titulo-da-sessao{
+    text-align: center; 
+    margin-bottom: 80px;
+}
+
+.titulo-da-sessao h4{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.titulo-da-sessao h4:before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #990100;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.colunas-menu {
+    width: 31;
+}
+
+.colunas-menu h4{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.colunas-menu h4::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #990100;
+    bottom: 0;
+}
+
+.singlemenu{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.singlemenu img{
+    width: 130px;
+    height: 135px;
+    border-radius: 50%;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 15px; 
+    margin-bottom: 25px;
+    transition: .3s;
+    
+}
+
+.singlemenu:hover img{
+    transform: rotate(360deg);
+}
+
+.singlemenu .descricao-menu h5{
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.singlemenu .descricao-menu h5 span{
+    color: #b90504;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    text-align: right;
+}
